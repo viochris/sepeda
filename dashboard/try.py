@@ -10,7 +10,7 @@ import seaborn as sns
 # Pada musim apa bike riding mendapat order terbanyak dalam 1 tahun?
 # Bagaimana korelasi antara suhu terhadap total order bike riding?
 
-day = pd.read_csv('dashboard\day.csv')
+day = pd.read_csv('day.csv')
 
 for col in day:
     print(col)
